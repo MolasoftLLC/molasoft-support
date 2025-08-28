@@ -1,0 +1,302 @@
+
+<!DOCTYPE html>
+<html lang="ja" data-theme="light" style=""><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>情報セキュリティ基本方針</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+      body {
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 32px 80px;
+        position: relative;
+        box-sizing: border-box;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.6;
+        color: #000;
+      }
+
+      .document-header {
+        text-align: center;
+        margin-bottom: 40px;
+        border-bottom: 2px solid #000;
+        padding-bottom: 20px;
+      }
+
+      .document-info {
+        text-align: right;
+        margin-bottom: 30px;
+        font-size: 14px;
+      }
+
+      h1 {
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      h2 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 30px;
+        margin-bottom: 15px;
+        border-left: 4px solid #000;
+        padding-left: 15px;
+      }
+
+      h3 {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+
+      p {
+        text-align: justify;
+        margin-bottom: 15px;
+        text-indent: 1em;
+      }
+
+      .no-indent {
+        text-indent: 0;
+      }
+
+      ol,
+      ul {
+        margin-bottom: 15px;
+        padding-left: 30px;
+      }
+
+      li {
+        margin-bottom: 8px;
+        text-align: justify;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 14px;
+      }
+
+      th,
+      td {
+        border: 1px solid #000;
+        padding: 8px 12px;
+        text-align: left;
+      }
+
+      th {
+        background-color: #f0f0f0;
+        font-weight: bold;
+      }
+
+      .signature-section {
+        margin-top: 40px;
+        text-align: right;
+      }
+
+      .article-number {
+        font-weight: bold;
+        margin-top: 25px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body style="">
+    <div class="document-header">
+      <h1>情報セキュリティ基本方針</h1>
+    </div>
+
+    <div class="document-info">
+      <p class="no-indent">制定日：令和6年1月1日</p>
+      <p class="no-indent">改訂日：令和6年1月1日</p>
+      <p class="no-indent">承認者：代表取締役 向江誠悟</p>
+      <p class="no-indent">文書番号：IS-001</p>
+      <p class="no-indent">版数：第1.0版</p>
+    </div>
+
+    <h2>第1条（目的）</h2>
+    <p>
+      本方針は、当社が保有する情報資産の機密性、完全性及び可用性を確保し、適切な情報セキュリティマネジメントを実現することを目的とする。また、個人情報保護法、不正競争防止法、サイバーセキュリティ基本法等の関連法令を遵守し、顧客及び社会からの信頼を維持することを目的とする。
+    </p>
+
+    <h2>第2条（適用範囲）</h2>
+    <p>
+      本方針は、当社の全役員、従業員、契約社員、派遣社員、アルバイト、委託先、協力会社等、当社の情報資産にアクセスする全ての者に適用する。
+    </p>
+
+    <h2>第3条（情報セキュリティの定義）</h2>
+    <p>本方針における情報セキュリティとは、以下の要素を確保することをいう。</p>
+    <ol>
+      <li><strong>機密性</strong>：情報へのアクセスを認可された者に制限すること</li>
+      <li><strong>完全性</strong>：情報及び処理方法の正確性及び完全性を保護すること</li>
+      <li>
+        <strong>可用性</strong>：認可された利用者が必要な時に情報及び関連する資産にアクセスできることを確実にすること
+      </li>
+    </ol>
+
+    <h2>第4条（基本方針）</h2>
+
+    <h3>4.1 情報資産の保護</h3>
+    <p>
+      当社は、顧客情報、技術情報、営業秘密等の重要な情報資産を適切に分類し、その重要度に応じた適切な保護措置を講じる。
+    </p>
+
+    <h3>4.2 法令遵守</h3>
+    <p>
+      当社は、個人情報保護法、不正競争防止法、サイバーセキュリティ基本法、その他情報セキュリティに関する法令、規制、契約上の義務を遵守する。
+    </p>
+
+    <h3>4.3 継続的改善</h3>
+    <p>当社は、情報セキュリティマネジメントシステムを継続的に見直し、改善を図る。</p>
+
+    <h3>4.4 事業継続</h3>
+    <p>当社は、情報セキュリティインシデントが発生した場合でも、事業の継続性を確保するための対策を講じる。</p>
+
+    <h2>第5条（組織体制及び責任者）</h2>
+
+    <table>
+      <tbody><tr>
+        <th>役職</th>
+        <th>氏名</th>
+        <th>責任範囲</th>
+      </tr>
+      <tr>
+        <td>情報セキュリティ責任者（CISO）</td>
+        <td>向江誠悟</td>
+        <td>情報セキュリティ全般の統括管理</td>
+      </tr>
+      <tr>
+        <td>システム管理責任者</td>
+        <td>向江誠悟</td>
+        <td>情報システムの技術的セキュリティ管理</td>
+      </tr>
+      <tr>
+        <td>個人情報保護責任者</td>
+        <td>向江誠悟</td>
+        <td>個人情報の適切な取扱い管理</td>
+      </tr>
+      <tr>
+        <td>インシデント対応責任者</td>
+        <td>向江誠悟</td>
+        <td>セキュリティインシデントの対応統括</td>
+      </tr>
+    </tbody></table>
+
+    <h2>第6条（情報資産管理）</h2>
+
+    <h3>6.1 情報資産の分類</h3>
+    <p>情報資産は、以下の4段階に分類し管理する。</p>
+    <ol>
+      <li><strong>機密</strong>：漏洩により当社の事業に重大な影響を与える情報</li>
+      <li><strong>社外秘</strong>：社外への開示が制限される情報</li>
+      <li><strong>社内</strong>：社内での利用に限定される情報</li>
+      <li><strong>公開</strong>：公開可能な情報</li>
+    </ol>
+
+    <h3>6.2 アクセス管理</h3>
+    <p>
+      情報資産へのアクセスは、業務上の必要性に基づき最小限の権限を付与する。アクセス権限の付与、変更、削除は、システム管理責任者の承認を得て実施する。
+    </p>
+
+    <h2>第7条（物理的セキュリティ）</h2>
+    <p>サーバールーム、重要書類保管場所等の物理的セキュリティを確保するため、以下の対策を講じる。</p>
+    <ol>
+      <li>入退室管理システムによるアクセス制御</li>
+      <li>監視カメラによる24時間監視</li>
+      <li>耐火金庫による重要書類の保管</li>
+      <li>清掃業者等外部業者の入室時の立会い</li>
+    </ol>
+
+    <h2>第8条（技術的セキュリティ）</h2>
+
+    <h3>8.1 ネットワークセキュリティ</h3>
+    <ol>
+      <li>ファイアウォールによる不正アクセスの防止</li>
+      <li>侵入検知システム（IDS）による監視</li>
+      <li>VPNによる安全な通信の確保</li>
+      <li>定期的な脆弱性診断の実施</li>
+    </ol>
+
+    <h3>8.2 システムセキュリティ</h3>
+    <ol>
+      <li>セキュリティパッチの迅速な適用</li>
+      <li>ウイルス対策ソフトの導入と定期更新</li>
+      <li>システムログの監視と保存</li>
+      <li>定期的なデータバックアップの実施</li>
+    </ol>
+
+    <h2>第9条（インシデント管理）</h2>
+
+    <h3>9.1 インシデント対応体制</h3>
+    <p>セキュリティインシデントが発生した場合、以下の体制により迅速な対応を行う。</p>
+    <ol>
+      <li>発見者は直ちにインシデント対応責任者（向江誠悟）に報告</li>
+      <li>インシデントの影響度評価と対応方針の決定</li>
+      <li>関係者への連絡と対応チームの編成</li>
+      <li>被害の拡大防止と原因調査の実施</li>
+      <li>再発防止策の策定と実施</li>
+    </ol>
+
+    <h3>9.2 報告義務</h3>
+    <p>
+      個人情報漏洩等の重大インシデントについては、個人情報保護委員会への報告を含め、法令に従い適切な報告・公表を行う。
+    </p>
+
+    <h2>第10条（教育・訓練）</h2>
+    <p>全従業員に対し、情報セキュリティに関する教育・訓練を定期的に実施する。</p>
+    <ol>
+      <li>新入社員に対する情報セキュリティ研修（入社時必須）</li>
+      <li>全従業員対象の定期研修（年1回以上）</li>
+      <li>システム管理者対象の専門研修（年2回以上）</li>
+      <li>標的型攻撃メール対応訓練（四半期毎）</li>
+    </ol>
+
+    <h2>第11条（監査・点検）</h2>
+    <p>情報セキュリティの実施状況について、以下の監査・点検を実施する。</p>
+    <ol>
+      <li>内部監査（年1回以上）</li>
+      <li>外部機関による監査（必要に応じて）</li>
+      <li>脆弱性診断（年2回以上）</li>
+      <li>セキュリティ対策の有効性評価</li>
+    </ol>
+
+    <h2>第12条（委託先管理）</h2>
+    <p>業務委託先に対しては、以下の管理を行う。</p>
+    <ol>
+      <li>委託契約におけるセキュリティ要件の明記</li>
+      <li>委託先のセキュリティ体制の定期的な確認</li>
+      <li>委託業務に関する定期的な監査の実施</li>
+      <li>セキュリティインシデント発生時の報告義務</li>
+    </ol>
+
+    <h2>第13条（違反時の措置）</h2>
+    <p>本方針に違反した場合は、その程度に応じて以下の措置を講じる。</p>
+    <ol>
+      <li>口頭または書面による注意・指導</li>
+      <li>再教育の実施</li>
+      <li>懲戒処分（就業規則に基づく）</li>
+      <li>損害賠償の請求</li>
+    </ol>
+
+    <h2>第14条（方針の見直し）</h2>
+    <p>
+      本方針は、法令改正、技術動向、社会情勢の変化等を踏まえ、年1回以上見直しを行い、必要に応じて改訂する。改訂は情報セキュリティ責任者が実施し、代表取締役の承認を得るものとする。
+    </p>
+
+    <h2>附則</h2>
+    <p class="no-indent">1. 本方針は、令和6年1月1日から施行する。</p>
+    <p class="no-indent">2. 本方針の実施に必要な細則は、別途定める。</p>
+    <p class="no-indent">3. 本方針に定めのない事項については、関連法令及び社内規程に従う。</p>
+
+    <div class="signature-section">
+      <p class="no-indent">令和6年1月1日</p>
+      <p class="no-indent">株式会社［会社名］</p>
+      <p class="no-indent">代表取締役　向江誠悟</p>
+    </div>
+  
+
+</body></html>
